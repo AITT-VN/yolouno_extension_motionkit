@@ -1,6 +1,6 @@
 from micropython import const
 from machine import SoftI2C
-from yolouno import *
+from yolo_uno import *
 
 motion_servos_pos = {}
 
