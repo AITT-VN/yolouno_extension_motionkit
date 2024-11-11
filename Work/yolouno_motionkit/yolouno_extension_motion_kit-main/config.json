@@ -1,0 +1,16 @@
+{
+    "name": "MOTION KIT",
+    "description": "Mục mở rộng dành cho bộ Motion kit",
+    "libs": [
+        "motion_kit.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+        "en": "languages/en.js",
+        "vi": "languages/vi.js"
+    },
+    "poster": "poster.png"
+}
