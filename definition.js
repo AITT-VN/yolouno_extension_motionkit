@@ -42,7 +42,6 @@ Blockly.Blocks['motionkit_move_motor'] = {
 };
 
 Blockly.Python["motionkit_move_motor"] = function (block) {
-  Blockly.Python.definitions_['import_yolo'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_motion_kit_motor'] = 'from motion_kit import *';
   var wheel_speed = Blockly.Python.valueToCode(block, 'wheel_speed', Blockly.Python.ORDER_ATOMIC);
   var dropdown_pin = block.getFieldValue('pin');
@@ -93,7 +92,6 @@ Blockly.Blocks['motionkit_stop'] = {
 };
 
 Blockly.Python["motionkit_stop"] = function (block) {
-  Blockly.Python.definitions_['import_yolo'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_motion_kit_motor'] = 'from motion_kit import *';
   var dropdown_action = block.getFieldValue('action');
   var dropdown_pin = block.getFieldValue('pin');
@@ -140,7 +138,6 @@ Blockly.Blocks["motionkit_servo_write_angle"] = {
 };
 
 Blockly.Python['motionkit_servo_write_angle'] = function (block) {
-  Blockly.Python.definitions_['import_yolo'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_motion_kit_motor'] = 'from motion_kit import *';
   var value_output = Blockly.Python.valueToCode(block, 'angle', Blockly.Python.ORDER_ATOMIC);
   var value_speed = Blockly.Python.valueToCode(block, 'speed', Blockly.Python.ORDER_ATOMIC);
@@ -191,7 +188,6 @@ Blockly.Blocks["motionkit_servo_micro_angle"] = {
 };
 
 Blockly.Python['motionkit_servo_micro_angle'] = function (block) {
-  Blockly.Python.definitions_['import_yolo'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_motion_kit_motor'] = 'from motion_kit import *';
   var value_output = Blockly.Python.valueToCode(block, 'angle', Blockly.Python.ORDER_ATOMIC);
   var dropdown_pin = block.getFieldValue('pin');
@@ -242,7 +238,6 @@ Blockly.Blocks['motionkit_servo360_write'] = {
 };
 
 Blockly.Python['motionkit_servo360_write'] = function (block) {
-  Blockly.Python.definitions_['import_yolo'] = 'from yolobit import *';
   Blockly.Python.definitions_['import_motion_kit_motor'] = 'from motion_kit import *';
   var value_output = Blockly.Python.valueToCode(block, 'speed', Blockly.Python.ORDER_ATOMIC);
   var dropdown_pin = block.getFieldValue('pin');
